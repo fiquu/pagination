@@ -4,7 +4,11 @@
   "description": "Simple pagination component.",
   "main": "lib",
   "scripts": {
-    "test": "nyc mocha --require ts-node/register \"./test/**/*.spec.ts\""
+    "test": "nyc mocha --require ts-node/register \"./test/**/*.spec.ts\"",
+    "postversion": "git push --follow-tags",
+    "build": "tsc && npm run docs",
+    "docs": "typedoc",
+    "prepack": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,6 +24,9 @@
     "url": "https://github.com/fiquu/pagination/issues"
   },
   "homepage": "https://github.com/fiquu/pagination#readme",
+  "dependencies": {
+    "@types/node": "^13.7.0"
+  },
   "devDependencies": {
     "@fiquu/eslint-config": "^2.0.0",
     "@types/chai": "^4.2.9",
@@ -33,6 +40,7 @@
     "mocha": "^7.0.1",
     "nyc": "^15.0.0",
     "ts-node": "^8.6.2",
+    "typedoc": "^0.16.10",
     "typescript": "^3.7.5"
   }
 }

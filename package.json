@@ -1,0 +1,38 @@
+{
+  "name": "@fiquu/pagination",
+  "version": "1.0.0",
+  "description": "Simple pagination component.",
+  "main": "lib",
+  "scripts": {
+    "test": "nyc mocha --require ts-node/register \"./test/**/*.spec.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiquu/pagination.git"
+  },
+  "keywords": [
+    "pagination",
+    "component"
+  ],
+  "author": "fiquu <hi@fiquu.dev> (https://fiquu.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiquu/pagination/issues"
+  },
+  "homepage": "https://github.com/fiquu/pagination#readme",
+  "devDependencies": {
+    "@fiquu/eslint-config": "^2.0.0",
+    "@types/chai": "^4.2.9",
+    "@types/faker": "^4.1.9",
+    "@types/mocha": "^7.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "faker": "^4.1.0",
+    "mocha": "^7.0.1",
+    "nyc": "^15.0.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}

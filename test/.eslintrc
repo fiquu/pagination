@@ -1,0 +1,14 @@
+{
+  "extends": "../.eslintrc",
+  "env": {
+    "mocha": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "max-lines-per-function": "off",
+    "max-lines": "off"
+  }
+}

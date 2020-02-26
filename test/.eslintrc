@@ -1,8 +1,7 @@
 {
-  "extends": "../.eslintrc",
+  "extends": "@fiquu",
   "env": {
-    "mocha": true,
-    "es6": true
+    "mocha": true
   },
   "parserOptions": {
     "sourceType": "module"

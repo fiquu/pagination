@@ -1,9 +1,3 @@
-/**
- * Pagination Component module.
- *
- * @module pagination
- */
-
 export type PaginationConfig = {
   /**
    * The limit per page.

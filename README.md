@@ -6,7 +6,7 @@
 ![npm (scoped)](https://img.shields.io/npm/v/@fiquu/pagination)
 ![npm](https://img.shields.io/npm/dw/@fiquu/pagination)
 
-Simple pagination component.
+Simple, dependency-free pagination component.
 
 ## Installation
 
@@ -15,6 +15,7 @@ npm i @fiquu/pagination
 ```
 
 ## Usage
+
 ```ts
 import { createPagination, PaginationComponent } from '@fiquu/pagination';
 
@@ -30,4 +31,4 @@ const query = await Posts.find()
 
 ## Documentation
 
-Please see https://fiquu.github.io/pagination/ for more details.
+Please see [the documentation page](https://fiquu.github.io/pagination/) for more details.

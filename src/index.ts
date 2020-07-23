@@ -65,6 +65,7 @@ function paginate(limit: number, page: number): PaginationPaging {
  * Pagination Component factory.
  *
  * @param {object} config The configuration object.
+ * @param {number} config.limit The limit to use.
  *
  * @returns {object} The component instance.
  */

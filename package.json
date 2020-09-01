@@ -1,6 +1,6 @@
 {
   "name": "@fiquu/pagination",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple pagination component.",
   "main": "lib",
   "scripts": {
